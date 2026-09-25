@@ -53,7 +53,7 @@ export default function AdminPortalModal({ isOpen, onClose }: AdminPortalModalPr
 
             <form onSubmit={handleVerify} className="space-y-4">
               <div>
-                <label className="block text-xs uppercase tracking-wider text-stone-400 mb-2">
+                <label className="block text-sm font-semibold uppercase tracking-wider text-stone-400 mb-2">
                   Underwriter Passkey
                 </label>
                 <div className="relative">
@@ -81,7 +81,7 @@ export default function AdminPortalModal({ isOpen, onClose }: AdminPortalModalPr
                 <button
                   type="button"
                   onClick={handleQuickFill}
-                  className="px-4 py-2.5 bg-stone-900 hover:bg-stone-800 border border-amber-500/30 text-amber-400 text-xs rounded-xl transition-all"
+                  className="px-5 py-3 min-h-[44px].5 bg-stone-900 hover:bg-stone-800 border border-amber-500/30 text-amber-400 text-base font-semibold min-h-[44px] rounded-xl transition-all"
                 >
                   ⚡ Auto-Fill Demo Passkey
                 </button>
